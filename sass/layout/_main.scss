@@ -28,9 +28,27 @@
 
 }
 
+.l-skills {
+
+	padding: ($baseline*4) 0 ($baseline*4) 0;
+
+	h2 {
+		margin-bottom: $baseline;
+	}
+
+	h3 {
+		margin-bottom: $baseline;
+	}
+
+	p {
+		margin-bottom: $baseline*4;
+	}
+
+}
+
 .l-portfolio {
 
-	padding: ($baseline*2) 0 ($baseline*4) 0;
+	padding: ($baseline*4) 0 ($baseline*4) 0;
 
 	h2 {
 		margin-bottom: $baseline;
@@ -50,7 +68,7 @@
 
 
 
-	padding: ($baseline*2) 0 ($baseline*4) 0;
+	padding: ($baseline*4) 0 ($baseline*4) 0;
 
 	h2 {
 		margin-bottom: $baseline;

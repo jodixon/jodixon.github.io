@@ -104,8 +104,24 @@ h6 {
 
 }
 
+.t-skills {
+
+	border-bottom: 2px solid #d1d2d4;
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p {
+		color: $color-light-text-alt;
+	}
+
+}
+
 
 .t-portfolio {
+
+	border-bottom: 2px solid #d1d2d4;
 
 	h2 {
 		font-size: 1.5em;

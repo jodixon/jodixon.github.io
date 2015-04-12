@@ -2693,11 +2693,16 @@ p a:hover { text-decoration: none; }
 .l-main-banner p.lead { max-width: 75%; margin-bottom: 24px; }
 .l-main-banner p > .btn { margin-right: 10px; }
 
-.l-portfolio { padding: 48px 0 96px 0; }
+.l-skills { padding: 96px 0 96px 0; }
+.l-skills h2 { margin-bottom: 24px; }
+.l-skills h3 { margin-bottom: 24px; }
+.l-skills p { margin-bottom: 96px; }
+
+.l-portfolio { padding: 96px 0 96px 0; }
 .l-portfolio h2 { margin-bottom: 24px; }
 .l-portfolio h3 { margin-bottom: 24px; }
 
-.l-contact { padding: 48px 0 96px 0; }
+.l-contact { padding: 96px 0 96px 0; }
 .l-contact h2 { margin-bottom: 24px; }
 .l-contact p { margin-bottom: 48px; }
 .l-contact .contact-info { margin-bottom: 48px; }
@@ -2740,6 +2745,11 @@ h1, h2, h3, h4, h5, h6 { color: #383838; }
 
 .t-divider { width: 24px; height: 3px; background: #383838; margin: 0 auto; margin-bottom: 72px; }
 
+.t-skills { border-bottom: 2px solid #d1d2d4; }
+.t-skills h2 { font-size: 1.5em; }
+.t-skills p { color: #8d8d8d; }
+
+.t-portfolio { border-bottom: 2px solid #d1d2d4; }
 .t-portfolio h2 { font-size: 1.5em; }
 .t-portfolio h3 { font-size: 1.3em; color: #383838; }
 .t-portfolio .t-mockup-img { background-color: #edf0f2; height: 384px; }
