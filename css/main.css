@@ -2739,6 +2739,7 @@ h1, h2, h3, h4, h5, h6 { color: #383838; }
 
 .t-portfolio h2 { font-size: 1.5em; }
 .t-portfolio .t-mockup-img { background-color: #edf0f2; height: 384px; margin-bottom: 30px; }
+.t-portfolio .modal { width: 50em; height: 50em; background-color: #d1d2d4; }
 
 .t-contact { background-color: #d1d2d4; }
 .t-contact h2 { font-size: 1.5em; }
