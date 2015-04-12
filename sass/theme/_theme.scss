@@ -97,7 +97,8 @@ h6 {
 .t-divider {
 
 	width: $baseline;
-	border-bottom: 3px solid $color-dark-text;
+	height: 3px;
+	background: $color-dark-text;
 	margin: 0 auto;
 	margin-bottom: $baseline*3;
 
@@ -112,6 +113,7 @@ h6 {
 
 	h3 {
 		font-size: 1.3em;
+		color: $color-dark-text;
 	}
 
 	.t-mockup-img {
@@ -131,6 +133,10 @@ h6 {
 
 	}
 
+	p {
+		color: $color-light-text-alt;
+	}
+
 }
 
 
@@ -143,6 +149,21 @@ h6 {
 
 	h2 {
 		font-size: 1.5em;
+	}
+
+	.contact-info {
+
+		color: $color-light-text-alt;
+
+		.info {
+
+			font-size: 1.2em;
+			.pre {
+				color: $color-dark-text;
+			}
+
+		}
+
 	}
 
 	p {

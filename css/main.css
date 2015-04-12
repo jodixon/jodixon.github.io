@@ -2700,6 +2700,8 @@ p a:hover { text-decoration: none; }
 .l-contact { padding: 48px 0 96px 0; }
 .l-contact h2 { margin-bottom: 24px; }
 .l-contact p { margin-bottom: 48px; }
+.l-contact .contact-info { margin-bottom: 48px; }
+.l-contact .contact-info .info { display: inline-block; margin-bottom: 7px; }
 .l-contact .form-wrapper { max-width: 50em; }
 .l-contact .form-wrapper form { margin: 0 auto; }
 .l-contact .form-wrapper form label { vertical-align: center; margin-right: 30px; }
@@ -2736,15 +2738,19 @@ h1, h2, h3, h4, h5, h6 { color: #383838; }
 .t-intro .t-main-banner p > a.btn { border-radius: 0; border-color: #fff; color: #fff; }
 .t-intro .t-main-banner p > a.btn:hover { color: #8d8d8d; border-color: #8d8d8d; }
 
-.t-divider { width: 24px; border-bottom: 3px solid #383838; margin: 0 auto; margin-bottom: 72px; }
+.t-divider { width: 24px; height: 3px; background: #383838; margin: 0 auto; margin-bottom: 72px; }
 
 .t-portfolio h2 { font-size: 1.5em; }
-.t-portfolio h3 { font-size: 1.3em; }
+.t-portfolio h3 { font-size: 1.3em; color: #383838; }
 .t-portfolio .t-mockup-img { background-color: #edf0f2; height: 384px; }
 .t-portfolio .t-img, .t-portfolio .t-mockup-img { width: 100%; margin-bottom: 30px; border: 1px solid #d1d2d4; -webkit-box-shadow: 5px 5px 0px 0px rgba(209, 210, 212, 0.5); -moz-box-shadow: 5px 5px 0px 0px rgba(209, 210, 212, 0.5); box-shadow: 5px 5px 0px 0px rgba(209, 210, 212, 0.5); }
+.t-portfolio p { color: #8d8d8d; }
 
 .t-contact { background-color: #fff; }
 .t-contact h2 { font-size: 1.5em; }
+.t-contact .contact-info { color: #8d8d8d; }
+.t-contact .contact-info .info { font-size: 1.2em; }
+.t-contact .contact-info .info .pre { color: #383838; }
 .t-contact p { font-size: 1.2em; color: #8d8d8d; }
 .t-contact input, .t-contact textarea { border-radius: 0; border: none; background-color: #d1d2d4; }
 .t-contact input:hover, .t-contact textarea:hover { border: 1px solid #8d8d8d; color: #383838; }
