@@ -99,7 +99,7 @@ h6 {
 	width: $baseline;
 	border-bottom: 3px solid $color-dark-text;
 	margin: 0 auto;
-	margin-bottom: $baseline*2;
+	margin-bottom: $baseline*3;
 
 }
 
@@ -110,6 +110,10 @@ h6 {
 		font-size: 1.5em;
 	}
 
+	h3 {
+		font-size: 1.3em;
+	}
+
 	.t-mockup-img {
 		background-color: #edf0f2;
 		margin-bottom: 30px;
@@ -118,7 +122,11 @@ h6 {
 
 	.t-img {
 		width: 100%;
+		margin-bottom: 30px;
+		border: 1px solid #d1d2d4;
 	}
+
+
 
 
 }
@@ -129,7 +137,7 @@ h6 {
 
 .t-contact {
 
-	background-color: #d1d2d4;
+	background-color: #fff;
 
 	h2 {
 		font-size: 1.5em;
@@ -143,7 +151,7 @@ h6 {
 	input, textarea {
 		border-radius: 0;
 		border: none;
-		background-color: #fff;
+		background-color: #d1d2d4;
 	}
 
 	input:hover, textarea:hover {
