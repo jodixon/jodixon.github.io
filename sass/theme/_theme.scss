@@ -116,18 +116,20 @@ h6 {
 
 	.t-mockup-img {
 		background-color: #edf0f2;
-		margin-bottom: 30px;
 		height: $baseline*16;
 	}
 
-	.t-img {
+	.t-img, .t-mockup-img {
+
 		width: 100%;
 		margin-bottom: 30px;
 		border: 1px solid #d1d2d4;
+
+		-webkit-box-shadow: 5px 5px 0px 0px rgba(209,210,212,0.5);
+		-moz-box-shadow: 5px 5px 0px 0px rgba(209,210,212,0.5);
+		box-shadow: 5px 5px 0px 0px rgba(209,210,212,0.5);
+
 	}
-
-
-
 
 }
 
