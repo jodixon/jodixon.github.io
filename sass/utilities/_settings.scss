@@ -1,0 +1,24 @@
+/* Typography */
+$base-font-size: 16px;
+$baseline: $base-font-size*1.5;
+
+
+$font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-2: Georgia, serif;
+
+//$baseline: $base-font-size * 1.5;
+
+/* Colors */
+$color-link: #4183C4;
+$color-link-hover: #333;
+$color-background: #fff;
+
+$color-light-text: #fff;
+$color-light-text-alt: #8d8d8d;
+
+$color-dark-text: #383838;
+$color-dark-text-alt: #555;//#888787;
+
+/* Positioning */
+// $margin-multiplier: 2;
+// $general-margin: $baseline * $margin-multiplier;

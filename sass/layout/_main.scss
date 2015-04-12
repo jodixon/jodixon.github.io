@@ -1,0 +1,119 @@
+.l-main-banner {
+
+	padding: ($baseline*5) 0;
+
+	h1 {
+
+		line-height: 1em;
+		margin-bottom: $baseline;
+
+		span.light {
+			display: block;
+		}
+
+		span.heavy {
+			display: block;
+		}
+	
+	}
+
+	p.lead {
+		max-width: 75%;
+		margin-bottom: $baseline;
+	}
+
+	p > .btn {
+		margin-right: 10px;
+	}
+
+}
+
+.l-portfolio {
+
+	padding: ($baseline*2) 0 ($baseline*4) 0;
+
+	h2 {
+		margin-bottom: $baseline;
+	}
+
+}
+
+.l-contact {
+
+
+
+	padding: ($baseline*2) 0 ($baseline*4) 0;
+
+	h2 {
+		margin-bottom: $baseline;
+	}
+
+	p {
+		margin-bottom: $baseline*2;
+	}
+
+	.form-wrapper {
+
+		max-width: 50em;
+
+		form {
+
+		margin: 0 auto;
+
+			label {
+				vertical-align: center;
+				margin-right: 30px;
+			}
+
+			input {
+				min-width: 50em;
+				margin-bottom: $baseline;
+				line-height: $baseline;
+				padding: $baseline $baseline*0.5;
+			}
+
+			textarea {
+				min-width: 50em;
+				min-height: 15em;
+				margin-bottom: $baseline;
+				line-height: $baseline;
+				padding: $baseline*0.5;
+			}
+
+			button {
+
+			}
+
+		}
+
+	}
+
+	
+
+}
+
+.l-footer {
+
+	p {
+		display: inline-block;
+	}
+
+	p.contact {
+
+		display: inline-block;
+
+		span.logo {
+			display: inline-block;
+			margin-bottom: $baseline*0.5;
+		}
+
+	}
+
+	
+
+}
+
+
+
+
+

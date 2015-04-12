@@ -1,0 +1,216 @@
+/* General typography */
+body {
+	
+	color: $color-dark-text;
+	font-family: $font-1;
+
+}
+
+
+a {
+
+	color: $color-link;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+	color: $color-dark-text;
+
+}
+
+/* Intro */
+
+.t-intro {
+
+	@include background-image(linear-gradient(#222b3a, #5d6a7d));
+	border-bottom: 1px solid #edf0f2;
+
+	/* Navbar */
+	nav.navbar {
+
+		.navbar-brand {
+			font-weight: 700;
+			color: $color-light-text;
+
+			.light {
+				font-weight: normal;
+			}
+		}
+
+		li > a {
+			color: $color-light-text;
+			background-color: transparent;
+		}
+
+		li > a:hover, li > a:focus {
+			background-color: transparent;
+			border-bottom: 1px solid $color-light-text;
+
+		}
+
+	}
+
+	.t-main-banner {
+
+		h1 {
+			color: $color-light-text;
+
+			font-size: 5.0em;
+			letter-spacing: -2px;
+
+			span.light {
+				font-weight: 300;
+			}
+
+			span.heavy {
+				font-weight: 700;
+			}
+		}
+
+		p.lead {
+			font-size: 1.25em;
+			line-height: 1.5*1.25em;
+			color: $color-light-text;
+		}
+
+		p > a.btn {
+			border-radius: 0;
+			border-color: $color-light-text;
+			color: $color-light-text;
+		}
+
+		p > a.btn:hover {
+			color: $color-light-text-alt;
+			border-color: $color-light-text-alt;
+		}
+
+	}
+
+}
+
+.t-divider {
+
+	width: $baseline;
+	border-bottom: 3px solid $color-dark-text;
+	margin: 0 auto;
+	margin-bottom: $baseline*2;
+
+}
+
+
+.t-portfolio {
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.t-mockup-img {
+		background-color: #edf0f2;
+		height: $baseline*16;
+		margin-bottom: 30px;
+	}
+
+}
+
+
+
+	
+
+.t-contact {
+
+	background-color: #d1d2d4;
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 1.2em;
+		color: $color-light-text-alt;
+	}
+
+	input, textarea {
+		border-radius: 0;
+		border: none;
+		background-color: #fff;
+	}
+
+	input:hover, textarea:hover {
+		border: 1px solid $color-light-text-alt;
+		color: $color-dark-text;
+	}
+
+	input:focus, textarea:focus {
+		border: 1px solid $color-light-text-alt;
+		box-shadow: none;
+		outline: none;
+	}
+
+	button {
+		border-radius: 0;
+		color: $color-light-text-alt;
+	}
+
+	button:hover {
+		background-color: #fff;
+		color: $color-dark-text;
+		border-color: $color-dark-text;
+	}
+
+}
+
+
+
+/* Footer */
+.t-footer {
+
+	background-color: #191919;
+
+	p.copyright {
+
+		color: $color-light-text;
+
+		a {
+			color: $color-light-text-alt;
+		}
+
+	}
+
+	p.contact {
+
+		span.logo {
+			font-size: 1.3em;
+			color: $color-light-text;
+
+			span.heavy {
+				font-weight: 700;
+			}
+
+		}
+
+		span.phone, span.email {
+
+			span.pre {
+				color: $color-light-text;
+			}
+
+			color: $color-light-text-alt;
+		}
+		
+	}
+
+}
+
+/* Layout related */
+.t-padding {
+	padding: $baseline*4 0;
+}
+
+
+
