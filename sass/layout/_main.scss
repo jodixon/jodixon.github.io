@@ -32,6 +32,10 @@
 
 	padding: ($baseline*4) 0 ($baseline*4) 0;
 
+	.icon {
+		margin-bottom: $baseline;
+	}
+
 	h2 {
 		margin-bottom: $baseline;
 	}
@@ -145,8 +149,6 @@
 		}
 
 	}
-
-	
 
 }
 
