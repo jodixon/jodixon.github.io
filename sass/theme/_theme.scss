@@ -28,15 +28,14 @@ h6 {
 
 .t-intro {
 
-	@include background-image(linear-gradient(#222b3a, #5d6a7d));
-	border-bottom: 1px solid #edf0f2;
+	// background-color: #222b3a;
 
 	/* Navbar */
 	nav.navbar {
 
 		.navbar-brand {
 			font-weight: 700;
-			color: $color-light-text;
+			color: $color-dark-text;
 
 			.light {
 				font-weight: normal;
@@ -44,13 +43,13 @@ h6 {
 		}
 
 		li > a {
-			color: $color-light-text;
+			color: $color-dark-text;
 			background-color: transparent;
 		}
 
 		li > a:hover, li > a:focus {
 			background-color: transparent;
-			border-bottom: 1px solid $color-light-text;
+			border-bottom: 1px solid $color-dark-text;
 
 		}
 
@@ -59,7 +58,7 @@ h6 {
 	.t-main-banner {
 
 		h1 {
-			color: $color-light-text;
+			color: $color-dark-text;
 
 			font-size: 5.0em;
 			letter-spacing: -2px;
@@ -76,18 +75,18 @@ h6 {
 		p.lead {
 			font-size: 1.25em;
 			line-height: 1.5*1.25em;
-			color: $color-light-text;
+			color: $color-dark-text;
 		}
 
 		p > a.btn {
 			border-radius: 0;
-			border-color: $color-light-text;
-			color: $color-light-text;
+			border-color: $color-dark-text;
+			color: $color-dark-text;
 		}
 
 		p > a.btn:hover {
-			color: $color-light-text-alt;
-			border-color: $color-light-text-alt;
+			color: $color-dark-text-alt;
+			border-color: $color-dark-text-alt;
 		}
 
 	}
@@ -106,8 +105,6 @@ h6 {
 
 .t-skills {
 
-	border-bottom: 2px solid #d1d2d4;
-
 	.icon {
 		font-size: 4.0em;
 		color: $color-dark-text;
@@ -125,8 +122,6 @@ h6 {
 
 
 .t-portfolio {
-
-	border-bottom: 2px solid #d1d2d4;
 
 	h2 {
 		font-size: 1.5em;
